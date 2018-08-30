@@ -1,0 +1,61 @@
+body {
+  margin: 0; }
+  body header .topImg {
+    background-color: #e1e1e1;
+    width: 100px;
+    height: 100px; }
+  body header .heading {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center; }
+  body section {
+    padding: 5%; }
+    body section .image {
+      background-color: #e1e1e1;
+      height: 320px;
+      width: 320px;
+      margin: 0 auto; }
+    body section .text {
+      margin: 0 auto;
+      text-align: center; }
+      body section .text h2 {
+        text-transform: uppercase;
+        font-size: 30px; }
+    body section .form {
+      margin: 0 auto; }
+      body section .form a {
+        color: #939393;
+        padding-top: 5%;
+        margin-left: 30%; }
+      body section .form input {
+        width: 100%;
+        border: none;
+        background-color: #e1e1e1;
+        padding: 10px;
+        padding-right: 0px;
+        margin-top: 5px; }
+      body section .form .submit {
+        background-color: #939393;
+        border: none;
+        color: white;
+        width: 103%; }
+
+@media only screen and (min-width: 768px) {
+  body section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    body section .image {
+      width: 500px;
+      height: 500px; }
+    body section .form {
+      text-align: center; }
+      body section .form a {
+        margin: 0 auto; }
+      body section .form input {
+        width: 85%;
+        padding-left: 0px; }
+      body section .form .submit {
+        width: 85%; } }
+
+/*# sourceMappingURL=style.css.map */
